@@ -1,0 +1,81 @@
+body{
+    width: 80%;
+    margin:auto;
+}
+header{
+    display: block;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    background-color: #14213d;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    max-height: 250%;
+    max-width: 100%;
+}
+h1{
+    color: white;
+}
+header, h1, h2, p, footer {
+    font-family: 'Open Sans', sans-serif; 
+}
+#description{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    color: #14213d ;
+}
+cite{
+    font-size: 16px;
+    text-align: center;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 1px 1px 4px 1px #888;
+}
+#card1{
+    grid-column: 1/2;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px 1px 4px 1px #888;
+}
+#card2{
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px 1px 4px 1px #888;
+}
+#card3{
+    grid-column: 3/4;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px 1px 4px 1px #888;
+}
+img{
+    align-content: center;
+    max-width: 400px;
+    max-height: 700px;
+}
+#footer{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #fca311;
+}
+footer{
+    color:black;
+    display: block;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    background-color: #e5e5e5;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    max-height: 150%;
+    max-width: 100%;
+}
