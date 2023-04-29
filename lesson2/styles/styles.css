@@ -79,13 +79,3 @@ footer{
     max-height: 150%;
     max-width: 100%;
 }
-@media only screen and (min-width: 32.5em) {
-    header {
-        font-size: 3.5em;
-        margin:auto
-    }
-    main, footer{
-        font-size: 2em;
-        margin: 5px
-    }
-}
