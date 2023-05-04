@@ -1,10 +1,12 @@
-@media only screen and (min-width: 32.5em) {
-    header {
-        font-size: 3.5em;
-        margin:auto
+
+@media screen and (max-width: 550px) {
+    #cards{
+        display: block;
     }
-    main, footer{
-        font-size: 2em;
-        margin: 5px
+    #card1, #card2, #card3{
+        margin: 15px;
     }
-}
+    img{
+        align-items: center;
+    }
+  }

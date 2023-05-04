@@ -35,7 +35,6 @@ cite{
     grid-template-columns: 1fr 1fr 1fr;
     border-radius: 10px;
     overflow: hidden;
-
     box-shadow: 1px 1px 4px 1px #888;
 }
 #card1{
@@ -79,3 +78,5 @@ footer{
     max-height: 150%;
     max-width: 100%;
 }
+
+
