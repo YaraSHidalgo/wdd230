@@ -1,0 +1,127 @@
+body{
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+}
+header{
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+#logo img{
+    padding: 20px;
+    max-width: 230px;
+    max-height: 170px;
+    margin: 0 auto;
+    border: 1em;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-top: 2em;
+    font-size: 25px ;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    justify-items: center;
+    align-items:center;
+    padding: 1.5em;
+}
+nav a:hover{
+    color: white;
+    background: #729b79;
+}
+#banner{
+    position: relative;
+    display: inline-block;
+}
+#banner img{
+    max-width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+#banner h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-120%, -120%);
+    z-index: 1;
+    background-size: 150px;
+    color: #f3e8ee ;
+}
+#purpose{
+    background-color: #729b79;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    padding: 2em;
+    margin-top: 2em;
+}
+h2{
+    color:black ;
+    padding: 2em;
+}
+#purpose p{
+    color: white;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 5%;
+    max-width: 70%;
+}
+header, a, h1, h2, h3, #raleway, th{
+    font-family: 'Raleway', sans-serif;
+}
+p, #robot{
+    font-family: Robot, Arial, sans-serif;
+}
+#design{
+    text-align: center;
+}
+table {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+#colors td{
+    width: 25%;
+    height: 3em;
+    align-content: center;
+}
+#primary{
+    background-color: #2E2C2F;
+}
+#secondary{
+    background-color:#729b79 ;
+}
+#tertiary{
+    background-color: #475b63;
+}
+#quarterary{
+    background-color: #bacdb0;
+}
+#typhography{
+    text-align: center;
+}
+#raleway, #robot{
+    background-color: #bacdb0 ;
+    max-width: 50px;
+    max-height: 50px;
+}
+th, td{
+    padding: 10px;
+}
+
+
+footer{
+    display: block;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    margin-top: 2em;
+    padding: 2em;
+    color: #475b63;
+    box-shadow:rgba(2, 2, 2, 0.5);
+    border-color: black;
+}
