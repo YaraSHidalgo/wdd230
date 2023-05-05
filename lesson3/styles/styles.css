@@ -1,3 +1,4 @@
+/* Index css page*/
 body{
     width: 80%;
     margin:auto;
@@ -74,6 +75,8 @@ header, a, h1, h2, h3, #raleway, th{
 p, #robot{
     font-family: Robot, Arial, sans-serif;
 }
+
+/* Design css page*/
 #design{
     text-align: center;
 }
@@ -113,7 +116,24 @@ th, td{
     padding: 10px;
 }
 
+/* Target Audience css */
+#target-audience{
+    text-align: center ;
+    background-color: #729b79;
+    padding: 2em;
+    margin-top: 2em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+#target-audience h3 h2{
+    color: #475b63;
+}
+#target-audience p{
+    color: white;
+    font-style:italic;
+    font-display:inherit;
+}
 
+/* footer css */
 footer{
     display: block;
     align-items: center;
@@ -125,3 +145,17 @@ footer{
     box-shadow:rgba(2, 2, 2, 0.5);
     border-color: black;
 }
+
+@media screen and (max-width: 550px) {
+    header, #purpose,footer, tr, th{
+        display: block;
+        align-items: center;
+    }
+    nav a, nav li{
+        display: block;
+        justify-content: center;
+    }
+    img{
+        align-items: center;
+    }
+  }
